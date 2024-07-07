@@ -1,0 +1,204 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: navy;
+    color:#CBCBD4 ;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20%;
+}
+
+.nav-icon {
+    width: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    color: #cbcba4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section Styling */
+.hero {
+    height: 100vh;
+    background: url('BG.PNG') no-repeat center left/cover;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    flex-direction: column;
+    margin-top:0%;
+    padding: 20% ;
+}
+
+.hero-content blockquote {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: left;
+    
+}
+
+.hero-content button {
+    padding: 10px 20px;
+    background-color: navy;
+    color: #cbcba4;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 50px;
+}
+
+.hero-content button:hover {
+    background-color: darkblue;
+}
+
+/* Portfolio Section Styling */
+#portfolio {
+    padding: 2rem;
+    background-color: #cbcba4;
+}
+
+#portfolio h2 {
+    margin-bottom: 1rem;
+    color: navy;
+}
+
+#portfolio p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#portfolio table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+#portfolio th, #portfolio td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+#portfolio th {
+    background-color: #CBCBD4 ;
+    color: navy;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #d4Af37;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer-links, .footer-socials {
+    margin-bottom: 10px;
+}
+
+.footer-links a, .footer-socials a {
+    color:#CBCBD4 ;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover, .footer-socials a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+/* Contact Section Styling */
+.contact-section {
+    max-width: 600px;
+    margin: 10% auto;
+    background: #CBCBD4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: navy;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.contact-section input, .contact-section textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.contact-section button {
+    padding: 10px 20px;
+    background-color: navy;
+    color: #CBCBD4;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 50px;
+    align-self: center;
+}
+
+.contact-section button:hover {
+    background-color: darkblue;
+}
